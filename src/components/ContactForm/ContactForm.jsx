@@ -1,6 +1,6 @@
 import { useDispatch, useSelector } from 'react-redux';
 import PropTypes from 'prop-types';
-import { addContact } from 'components/Redux/contacts/contactsSlice';
+import { addContact } from 'Redux/contacts/contactsSlice';
 import { FormContainer, Form, Text, Input, Submit } from './StyledContactForm';
 import { nanoid } from '@reduxjs/toolkit';
 

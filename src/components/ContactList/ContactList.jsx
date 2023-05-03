@@ -1,6 +1,5 @@
-import { deleteContact } from 'components/Redux/contacts/contactsSlice';
+import { deleteContact } from 'Redux/contacts/contactsSlice';
 import { useDispatch, useSelector } from 'react-redux';
-import PropTypes from 'prop-types';
 import { DeleteItem, Span } from './StyledListContact';
 
 export const ContactList = () => {
@@ -37,8 +36,4 @@ export const ContactList = () => {
   );
 };
 
-
-ContactList.propTypes = {
-  deleteContact: PropTypes.func,
-};
 

@@ -1,6 +1,5 @@
-import PropTypes from 'prop-types';
 import { useDispatch } from 'react-redux';
-import { onFilter } from './Redux/contacts/contactsSlice';
+import { onFilter } from '../Redux/contacts/contactsSlice';
 
 export const Filter = () => {
   const dispatch = useDispatch();
@@ -24,10 +23,6 @@ export const Filter = () => {
       </label>
     </div>
   );
-};
-
-Filter.propTypes = {
-  onFilter: PropTypes.func,
 };
 
 
